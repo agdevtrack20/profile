@@ -1245,3 +1245,28 @@ section .container {
   background-color: #12d640;
   color: #010e1b;
 }
+
+
+.person-container {
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  justify-content: center;
+  /* margin:0 20px 0 20px;
+  display: flex;
+  
+  flex-wrap: wrap; */
+}
+
+.person-container .p-img{
+  /* animation-name: p-img-animation;
+  animation-duration: 4s; */
+  display: block;
+  margin-left: 5%;
+  margin-right: auto;
+  width: 50%;
+  opacity: 50%;
+}
+
+.person-container .p-text{
+}
